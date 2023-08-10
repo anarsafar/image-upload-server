@@ -25,7 +25,7 @@ const uploadImage = async (req, res, next) => {
             url: downloadURL
         });
         image.save();
-        res.status(200).json({ message: 'Image uploaded successfully' });
+        res.status(200).json({ message: 'Image uploaded successfully', url: downloadURL });
     }
     catch (error) {
         console.error('Error uploading image:', error);
