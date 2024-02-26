@@ -9,7 +9,7 @@ dotenv_1.default.config();
 const SERVER_PORT = process.env.SERVER_PORT ? Number(process.env.SERVER_PORT) : 8080;
 const MONGO_USERNAME = process.env.MONGO_USERNAME || '';
 const MONGO_PASSWORD = process.env.MONGO_PASSWORD || '';
-const MONGO_URL = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster.mjzp3pa.mongodb.net/`;
+const MONGO_URL = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@cluster.mjzp3pa.mongodb.net/image-upload`;
 const FIREBASE_API = process.env.FIRE_BASE_API || '';
 const AUTH_DOMAIN = process.env.AUTH_DOMAIN || '';
 const PROCJECT_ID = process.env.PROCJECT_ID || '';
